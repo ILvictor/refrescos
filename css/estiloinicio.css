@@ -1,0 +1,70 @@
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font: 1.2rem;
+    line-height: 1.4em;
+ }
+ hi{ 
+     font-size: 2rem;
+     line-height: 1.3em; /* espaciado entre las lineas de texto */
+ }
+
+ p{
+     margin-bottom: 1.6em;
+ }
+ .contenedor{
+     width: 85%;
+     max-width: 850px;/* sera el maximo de los contenedores*/
+     margin: 0 auto;
+ }
+ .header{
+     background: #333;
+     color: white;
+     padding: 2rem 0;
+
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+  }
+.logo-nav-contenedor{
+      display: flex;
+      justify-content: space-between;/* separa el logo a los lados*/
+      align-items: center;
+}
+header a{
+color: white;
+text-decoration: none;
+ }
+.navigator ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigator ul li{
+    display: inline-block;
+    
+}
+.navigator ul li a{
+
+    padding: 0.5rem 1rem;
+    transition: all 0.7s linear;
+    border-radius: 5px;
+
+}
+.navigator ul li a:hover{
+    background: #4a4a4a;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+.footer{
+    background: #f2f2f2;
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+main{
+    padding-top: 7rem;
+}
